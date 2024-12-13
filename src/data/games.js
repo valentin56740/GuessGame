@@ -158,7 +158,7 @@ export const games = [
   {
     id: 13,
     name: "Marvel's Spider-Man",
-    alternative_names: ["Spider-Man PS4"],
+    alternative_names: ["Spider-Man PS4","Marvel Spiderman"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/inft7cmgvqcionq0jtrn.jpg",
     released: "2018-09-07",
     metacritic: 87,
@@ -249,7 +249,7 @@ export const games = [
   {
     id: 20,
     name: "Monster Hunter: World",
-    alternative_names: ["MHW"],
+    alternative_names: ["MHW","Monster Hunter World"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/qthzj4fqhky8gk8ajlcb.jpg",
     released: "2018-01-26",
     metacritic: 90,
@@ -275,7 +275,7 @@ export const games = [
   {
     id: 22,
     name: "Starfield",
-    alternative_names: ["Bethesda Space RPG"],
+    alternative_names: [],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/scmlzk.jpg",
     released: "2023-09-06",
     metacritic: 83,
@@ -301,7 +301,7 @@ export const games = [
   {
     id: 24,
     name: "Demon's Souls",
-    alternative_names: ["Demon's Souls Remake"],
+    alternative_names: ["Demon's Souls Remake","Demon Souls","Demon souls remake"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/sc8bl8.jpg",
     released: "2020-11-12",
     metacritic: 89,
