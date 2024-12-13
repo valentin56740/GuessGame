@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+## GuessTheArtwork 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Devinez de quel jeu provient l'image, si vous répondez mal, l'image devient plus nette. 
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Vous pouvez essayer de deviner un autre jeu si vous n'y arrivez pas. 
+
+## Deux thèmes disponible
+
+- **Dark**  
+![image](./public/dark.png)
+
+- **Light** 
+![image](./public/light.png)
+

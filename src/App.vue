@@ -1,9 +1,11 @@
 <script setup>
-import GuessTheGame from './views/GuessTheGame.vue';
+import GuessTheArtwork from './views/GuessTheArtwork.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
   <div class="min-h-screen bg-gray-100">
-    <GuessTheGame />
+    <Navbar />
+    <GuessTheArtwork />
   </div>
 </template>
