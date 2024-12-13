@@ -9,7 +9,8 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Nintendo",
     platform: ["Nintendo Switch", "Wii U"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🗡️", "🌿", "🛡️", "🗺️", "🦅"]
   },
   {
     id: 2,
@@ -21,55 +22,60 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Rockstar Games",
     platform: ["PlayStation 4", "Xbox One", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🔫", "🤠", "🐎", "🏜️", "🌄"]
   },
   {
     id: 3,
     name: "The Witcher 3: Wild Hunt",
-    alternative_names: ["Witcher 3", "The Witcher III"],
+    alternative_names: ["The Witcher 3", "The Witcher III"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/sctj8u.jpg",
     released: "2015-05-19",
     metacritic: 93,
     genre: "Action RPG",
     developer: "CD Projekt Red",
     platform: ["PlayStation 4", "Xbox One", "PC", "Nintendo Switch"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🧙‍♂️", "⚔️", "🐺", "🌌", "🧪"]
   },
   {
     id: 4,
     name: "God of War Ragnarök",
-    alternative_names: ["GOW Ragnarök", "God of War 5"],
+    alternative_names: ["God of War Ragnarok","GOW Ragnarok, GOW Ragnarök", "God of War 5"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/scd71w.jpg",
     released: "2022-11-09",
     metacritic: 94,
     genre: "Action-Adventure",
     developer: "Santa Monica Studio",
     platform: ["PlayStation 4", "PlayStation 5"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🪓", "⚡", "❄️", "🛡️", "👹"]
   },
   {
     id: 5,
     name: "Elden Ring",
-    alternative_names: ["The Elden Ring"],
+    alternative_names: ["Elden Ring"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/scu5kw.jpg",
     released: "2022-02-25",
     metacritic: 96,
     genre: "Action RPG",
     developer: "FromSoftware",
     platform: ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["💍", "🛡️", "🗡️", "🐉", "🌌"]
   },
   {
     id: 6,
     name: "Cyberpunk 2077",
-    alternative_names: ["CP2077"],
+    alternative_names: ["CP2077","CyberPunk"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/lelfskpwy4slftl3qdeb.jpg",
     released: "2020-12-10",
     metacritic: 86,
     genre: "Action RPG",
     developer: "CD Projekt Red",
     platform: ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🤖", "🌆", "🚗", "🔫", "💉"]
   },
   {
     id: 7,
@@ -81,19 +87,21 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Sucker Punch Productions",
     platform: ["PlayStation 4", "PlayStation 5"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🥷", "🏯", "🌸", "⚔️", "🐎"]
   },
   {
     id: 8,
     name: "Spider-Man: Miles Morales",
-    alternative_names: ["Miles Morales"],
+    alternative_names: ["Miles Morales","Spiderman miles morales"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/sc8bis.jpg",
     released: "2020-11-12",
     metacritic: 85,
     genre: "Action-Adventure",
     developer: "Insomniac Games",
     platform: ["PlayStation 4", "PlayStation 5"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🕸️", "🕷️", "🏙️", "⚡", "🎨"]
   },
   {
     id: 9,
@@ -105,7 +113,8 @@ export const games = [
     genre: "Action",
     developer: "Kojima Productions",
     platform: ["PlayStation 4", "PC", "PlayStation 5"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["📦", "🚶‍♂️", "🌧️", "🛤️", "👶"]
   },
   {
     id: 10,
@@ -117,19 +126,21 @@ export const games = [
     genre: "Action RPG",
     developer: "Guerrilla Games",
     platform: ["PlayStation 4", "PlayStation 5"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🏹", "🤖", "🌄", "🌊", "🔥"]
   },
   {
     id: 11,
     name: "Final Fantasy VII Remake",
-    alternative_names: ["FFVII Remake"],
+    alternative_names: ["FFVII Remake","FF7 Remake"],
     background_image: "https://images.igdb.com/igdb/image/upload/t_original/sc6vj1.jpg",
     released: "2020-04-10",
     metacritic: 87,
     genre: "Action RPG",
     developer: "Square Enix",
     platform: ["PlayStation 4", "PlayStation 5", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🧙‍♀️", "⚔️", "🌆", "🌪️", "🌟"]
   },
   {
     id: 12,
@@ -141,7 +152,8 @@ export const games = [
     genre: "Roguelike",
     developer: "Supergiant Games",
     platform: ["Nintendo Switch", "PlayStation 4", "Xbox One", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🔥", "⚔️", "👹", "🏛️", "🕊️"]
   },
   {
     id: 13,
@@ -153,7 +165,8 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Insomniac Games",
     platform: ["PlayStation 4"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🕷️", "🕸️", "🏙️", "💪", "👨‍🔧"]
   },
   {
     id: 14,
@@ -165,7 +178,8 @@ export const games = [
     genre: "Survival Horror",
     developer: "Capcom",
     platform: ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🧟‍♂️", "🏰", "🔫", "🐺", "👻"]
   },
   {
     id: 15,
@@ -177,7 +191,8 @@ export const games = [
     genre: "First-Person Shooter",
     developer: "id Software",
     platform: ["PlayStation 4", "Xbox One", "PC", "Nintendo Switch"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["👹", "🔥", "🔫", "🩸", "💀"]
   },
   {
     id: 16,
@@ -189,7 +204,8 @@ export const games = [
     genre: "Life Simulation",
     developer: "Nintendo",
     platform: ["Nintendo Switch"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🏝️", "🌱", "🐾", "🛶", "🍎"]
   },
   {
     id: 17,
@@ -201,7 +217,8 @@ export const games = [
     genre: "Action RPG",
     developer: "Ubisoft",
     platform: ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🪓", "⚓", "🐺", "🏔️", "⛵"]
   },
   {
     id: 18,
@@ -213,7 +230,8 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Remedy Entertainment",
     platform: ["PlayStation 4", "Xbox One", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🔮", "🪞", "🛸", "🏢", "🕵️"]
   },
   {
     id: 19,
@@ -225,7 +243,8 @@ export const games = [
     genre: "Action-Adventure",
     developer: "Respawn Entertainment",
     platform: ["PlayStation 4", "Xbox One", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["⚔️", "🌌", "🤖", "🧑‍🎤", "🏜️"]
   },
   {
     id: 20,
@@ -237,7 +256,8 @@ export const games = [
     genre: "Action RPG",
     developer: "Capcom",
     platform: ["PlayStation 4", "Xbox One", "PC"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🦖", "⚔️", "🌲", "🔥", "🍖"]
   },
   {
     id: 21,
@@ -249,7 +269,8 @@ export const games = [
     genre: "Action-Adventure",
     developer: "FromSoftware",
     platform: ["PlayStation 4", "Xbox One", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🥷", "⚔️", "🌸", "🗻", "👁️"]
   },
   {
     id: 22,
@@ -261,7 +282,8 @@ export const games = [
     genre: "Action RPG",
     developer: "Bethesda Game Studios",
     platform: ["Xbox Series X/S", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🚀", "🌌", "🔧", "🪐", "🌟"]
   },
   {
     id: 23,
@@ -273,7 +295,8 @@ export const games = [
     genre: "Co-op Adventure",
     developer: "Hazelight Studios",
     platform: ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["🤝", "🪵", "💑", "🎭", "🐝"]
   },
   {
     id: 24,
@@ -285,7 +308,8 @@ export const games = [
     genre: "Action RPG",
     developer: "Bluepoint Games",
     platform: ["PlayStation 5"],
-    dlc_available: false
+    dlc_available: false,
+    emojis: ["💀", "🔥", "🛡️", "⚔️", "🕯️"]
   },
   {
     id: 25,
@@ -297,6 +321,7 @@ export const games = [
     genre: "Roguelike Third-Person Shooter",
     developer: "Housemarque",
     platform: ["PlayStation 5"],
-    dlc_available: true
+    dlc_available: true,
+    emojis: ["🌌", "🔫", "🌀", "🚪", "⏳"]
   }
 ];

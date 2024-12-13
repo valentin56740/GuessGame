@@ -7,6 +7,7 @@ import { getRandomGame } from '../utils/gameUtils';
 const selectedGame = ref(null);
 const gameArtworkRef = ref(null);
 
+
 const selectNewGame = () => {
   selectedGame.value = getRandomGame(games);
   if (gameArtworkRef.value) {
@@ -17,13 +18,16 @@ const selectNewGame = () => {
 onMounted(() => {
   selectNewGame();
 });
+
+
 </script>
 
 <template>
-  <div class="hero bg-base-200 min-h-screen px-4 py-6">
-    <div class="hero-content text-center w-full">
-      <div class="flex flex-col items-center space-y-8 md:space-y-16 lg:space-y-32 w-full max-w-2xl">
-        <div v-if="selectedGame" class="game-container w-full">
+  <div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content text-center min-h-screen">
+      <div class="flex flex-col items-center space-y-32 max-w-2xl">
+        <h1 class="text-5xl font-">De quel jeu provient cette image ?</h1>    
+        <div v-if="selectedGame" class="game-container">
           <GameArtwork
               ref="gameArtworkRef"
               :key="selectedGame.id"
@@ -43,15 +47,45 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.guess-artwork {
+  padding: 20px;
+}
 
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
+.header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.1rem;
+}
 
 .game-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  width: 100%;
 }
 
+.next-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #45a049;
+}
 </style>
